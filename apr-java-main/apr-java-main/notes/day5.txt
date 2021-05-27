@@ -1,0 +1,24 @@
+composition
+> relationship between two objects
+ex: 
+car has parts
+employee works for department
+==============================================================
+exception
+> java.lang
+> Object -> throwable -> exception 
+> two types
+	> runtime exception(unchecked exception) - NullPointerException, ArithmeticException,ArrayIndexOutOfBoundsException
+	> compiletime exception(checked exception) - IOException,SQLException
+> user defined exception 
+===================================================================
+hashcode() vs equals()
+> java.lang.Object
+====================================================================
+Core Java Project Using Collection 
+Layered Architecture
+> extensible
+> maintainable
+> debug
+CRUD App
+> Create Read Update Delete

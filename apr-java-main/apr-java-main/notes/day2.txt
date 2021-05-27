@@ -1,0 +1,57 @@
+Operators
+Unary - Single operand
+Binary - Two operand 
+ex:
+a+b
++ - operator
+a,b - operand
+6 & 3
+0110
+0011
+----
+0010
+----
+6<<1
+6 -  0110
+1	 1100
+---------
+12 - 1100
+---------
+6>>1
+6 - 0110
+1   0011
+--------
+3 - 0011
+--------
+& - binary operator
+&& - binary operator
+& - bit wise operation
+&& - logical true or false
+------------------------------------------------
+Program Control Flow
+> Sequential
+> Selection - if,if-else,if-else if,nested if,switch
+> Iteration - while,do while,simple for,for each(enhanced for loop)
+> Transfer - break(loop or switch),continue(loop)
+-------------------------------------------------
+Object Oriented Programming
+> class 
+>> template for defining properties & behaviour for any real world objects
+> object
+>> instance of a class
+>> inistance variables, instance methods
+------------------------------------------------------- 
+Method Overloading - NOT 
+> N - number of parameters
+> O - Order of parameters
+> T - type of parameters
+----------------------------------------------------------
+> encapsulation 
+>> private variables & public methods
+>> hide the data from the outside world
+--------------------------------------------------
+> this keyword
+>> ambiguity between instance variable & local varaible
+>> represents instance variable
+>> represents the current instance
+----------------------------------------------------

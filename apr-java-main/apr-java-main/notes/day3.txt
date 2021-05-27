@@ -1,0 +1,38 @@
+getter vs setter
+toString()
+constructors
+> initialize properties
+> special method & it must not have return type
+> automatically called during object creation
+Overloading - NOT
+> in same class or in a class hierarchy
+Overriding 
+> in a class hierarchy
+constructor call in a same class - this()
+constructor call in a class hierarchy - super()
+final 
+> creating constants
+> must be initialized
+> cannot be reinitialized
+Arrays
+> declaration
+> initialization
+> passing an array to method
+Polymorphism
+> compiletime - overloading 
+> runtime - overriding
+Inheritance
+> reusability
+> one of the core OOPs
+final
+> class - cannot have a sub class/derived class/ child class
+> property - cannot change values
+> method - cannot be overriden
+Package
+> public
+> protected
+> default/no modifier/package private
+> private
+Exercise
+> Employee, EmployeeTest, Manager, Developer
+> Implement encapsulation,constructor,toString,arrays,inheritance,access modifiers

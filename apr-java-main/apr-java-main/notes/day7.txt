@@ -1,0 +1,24 @@
+Steps to be done in SQL Developer
+-- username & password  - sys as sysdba & password 
+-- create a new user
+alter session set "_ORACLE_SCRIPT"=true;
+create user root identified by password;
+grant all privileges to root;
+
+-- table creation
+create table CARS(id number(10),name varchar2(40));
+-- record insertion
+insert into CARS
+values (1,'Benz');
+insert into CARS
+values (2,'BMW');
+insert into CARS
+values (3,'Audi');
+-- permanent save
+commit;
+
+Steps in STS/Eclipse
+JDBC - Java Database Connectivity
+C:\app\Admin\product\18.0.0\dbhomeXE\jdbc\lib
+download ojdbc jar
+https://www.oracle.com/database/technologies/appdev/jdbc-ucp-183-downloads.html

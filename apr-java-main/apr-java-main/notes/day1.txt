@@ -1,0 +1,87 @@
+Janani
+
+Code 
+- https://github.com/gaje85/corejava
+- https://github.com/JananiVelmurugan/apr-java
+
+Software 
+- JDK 8 +
+- IDE - STS, Eclipse, IntelliJ, VsCode (Integrated Development Environment)
+- Maven - 3.6 +
+======================================================
+Day 1
+Introduction
+History
+>>1991 - Sun Microsystems
+>>Oracle acquired sun
+>>Patrick Nougnton & James Gosling(Father of Java)
+>>Consumer Electronics - Setup box
+>>"Green" -> 1993 language in the project (OAK)
+>>1960 (OAK)
+>>Java - Coffee Bean
+Popularity
+>>Browser providing the Java Runtime Support
+>>1993-1995 (W3C)
+>>1995 - Applet - Sun Microsystems User Conference 
+>>1997 - 1998 - J2EE - Java Enterprise Edition
+Version
+>>LTS - Long Term Support
+>>JDK 8 
+--------------------------------------------------------
+Java Compiler Basics
+>> JDK - Java Development Kit(library classes, compiler, JRE)
+>> JRE - Java Runtime Environment
+>> JVM - built using c language ( JVM is platform dependent)
+>> WORA - Write Once Run Anywhere
+Ex:
+hello.java -> hello.class (compiling java code => create the class files)
+hello.class -> hello (execution => executing the class files)
+.class => byte code (intermediate code , machine independent code)
+
+hello.c -> hello.exe (machine dependent code)
+------------------------------------------------------
+HelloWorld Application
+javac - compilation
+java - execution
+Steps:
+-----
+1. Create a HelloWorld.java
+2. Compile HelloWorld.java  - javac HelloWorld.java 
+3. Execute HelloWorld - java HelloWorld
+------------------------------------------------------
+Path, Classpath
+> Path - location of the javac - C:\Program Files\Java\jdk1.8.0_251\bin
+> Classpath - default is current dir - location of class files
+--------------------------------------------------
+Primitive Types & its Conversions
+> boolean
+> byte
+> char
+> short
+> int
+> long
+> float
+> double
+Non-Primitive Data Types
+> String
+> Array
+> Collection
+Conversions
+> operator
+> operand
+RULES:
+> byte,short,char -> int 
+> if any of the one operand long,float,double -> long,float,double
+-------------------------------------------------------------
+Operators
+> Arithmetic
+> Logical
+> Conditional
+> Increment, Decrement
+> Unary
+> new, instanceof, this, super
+-----------------------------------------------------
+
+
+
+
